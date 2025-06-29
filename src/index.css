@@ -11,18 +11,18 @@
   --breakpoint-xl: 1280px;
 
     /* Colors */
-  --color-deep: #00030a;
-  --color-primary: #010914;
-  --color-accent1: #1e1b4b;
-  --color-accent2: #3b0764;
-  --color-accent3: #6366f1;
-  --color-accent4: #e0f2fe;
-  --color-accent5: #14b8a6;
+  --color-deep: #0A0016;   /* Latar sangat gelap */
+  --color-primary: #661AFF;   /* Ungu terang menyala (utama) */
+  --color-accent1: #2A0C4E;   /* Ungu gelap ke arah biru */
+  --color-accent2: #431A6D;   /* Ungu neon */
+  --color-accent3: #934DFF;   /* Aksen hover/button */
+  --color-accent4: #E0CCFF;   /* Teks kontras */
+  --color-accent5: #1D102F;   /* Background gelap kedua */
 
 }
 
 :root {
   /* font-family: Inter, sans-serif;   */
-  background-color: var(--color-primary);
+  background-color: var(--color-deep);
   scroll-behavior: smooth;
 }

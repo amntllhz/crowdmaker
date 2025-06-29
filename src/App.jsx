@@ -1,10 +1,11 @@
 import './App.css'
+import Home from './pages/home'
 
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">CrowdMaker-APP</h1>
+      <Home/>
     </>
   )
 }
